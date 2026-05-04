@@ -8,7 +8,6 @@ int main(){
 
     char grade = 'A';
     printf("\nThe grade is: %c", grade);
-
     
     return 0;
 }

@@ -1,3 +1,1 @@
-The value of raj is: 100
-The value of pi is: 3.14
-The grade is: A
+10% 20%
