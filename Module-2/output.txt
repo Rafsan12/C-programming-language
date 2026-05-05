@@ -1,0 +1,5 @@
+The sum of a and b is 23
+The difference of a and b is -17
+The product of a and b is 60
+The quotient of a and b is 6.666667
+The remainder of a and b is 2
