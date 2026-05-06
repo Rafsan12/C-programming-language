@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, and simple examples with different numeric data types.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, and conditional statements.
 
 ## Folder Structure
 
@@ -11,10 +11,16 @@ C/
 |   +-- input.txt
 |   +-- output.txt
 +-- Mobule-1/
-    +-- print.c
-    +-- variable.c
-    +-- output.c
-    +-- limiations.c
+|   +-- print.c
+|   +-- variable.c
+|   +-- output.c
+|   +-- limiations.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-2/
+    +-- arithmetic.c
+    +-- conditional.c
+    +-- conditional2.c
     +-- input.txt
     +-- output.txt
 ```
@@ -26,6 +32,9 @@ C/
 - `scanf()` input
 - Integer, float, double, and character variables
 - Format specifiers such as `%d`, `%f`, `%lf`, and `%%`
+- Arithmetic operators: `+`, `-`, `*`, `/`, `%`
+- Conditional statements: `if`, `else if`, `else`
+- Nested conditionals
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -38,6 +47,9 @@ C/
 | `Mobule-1/variable.c` | Demonstrates integer, float, and character variables. |
 | `Mobule-1/output.c` | Reads and prints numbers with percent signs. |
 | `Mobule-1/limiations.c` | Demonstrates larger numeric values and double precision output. |
+| `Module-2/arithmetic.c` | Performs sum, difference, product, quotient, and remainder on two integers. |
+| `Module-2/conditional.c` | Reads an amount and prints a purchase decision using `if/else if/else`. |
+| `Module-2/conditional2.c` | Reads an amount and prints a purchase decision using nested `if/else`. |
 
 ## How to Compile and Run
 
@@ -46,15 +58,15 @@ Make sure GCC is installed, then run a C file from its folder.
 Example:
 
 ```bash
-cd Mobule-1
-gcc variable.c -o variable.exe
-./variable.exe
+cd Module-2
+gcc arithmetic.c -o arithmetic.exe
+./arithmetic.exe
 ```
 
 To read input from `input.txt` and save output in `output.txt`:
 
 ```bash
-./output.exe < input.txt > output.txt
+./conditional.exe < input.txt > output.txt
 ```
 
 ## Example Output
@@ -65,10 +77,27 @@ From `Mobule-1/limiations.c`:
 32422.123456
 ```
 
-From `Mobule-1/output.c` with input `10% 20%`:
+From `Module-2/arithmetic.c` with `a=3`, `b=20`:
 
 ```text
-10% 20%
+The sum of a and b is 23
+The difference of a and b is -17
+The product of a and b is 60
+The quotient of a and b is 6.666667
+The remainder of a and b is 2
+```
+
+From `Module-2/conditional.c` with input `100`:
+
+```text
+I will buy a shirt
+```
+
+From `Module-2/conditional2.c` with input `8000`:
+
+```text
+I will buy a laptop
+I will buy a mobile
 ```
 
 ## Notes
