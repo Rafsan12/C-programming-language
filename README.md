@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, and conditional statements.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, and loop examples.
 
 ## Folder Structure
 
@@ -10,7 +10,7 @@ C/
 |   +-- hello.c
 |   +-- input.txt
 |   +-- output.txt
-+-- Mobule-1/
++-- Module-1/
 |   +-- print.c
 |   +-- variable.c
 |   +-- output.c
@@ -18,9 +18,13 @@ C/
 |   +-- input.txt
 |   +-- output.txt
 +-- Module-2/
-    +-- arithmetic.c
-    +-- conditional.c
-    +-- conditional2.c
+|   +-- arithmetic.c
+|   +-- conditional.c
+|   +-- conditional2.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-3/
+    +-- loop_1.c
     +-- input.txt
     +-- output.txt
 ```
@@ -35,6 +39,7 @@ C/
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`
 - Conditional statements: `if`, `else if`, `else`
 - Nested conditionals
+- Looping with `for`
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -43,13 +48,14 @@ C/
 | File | Description |
 | --- | --- |
 | `setup/hello.c` | First setup program that prints `Hello world`. |
-| `Mobule-1/print.c` | Basic `printf()` example. |
-| `Mobule-1/variable.c` | Demonstrates integer, float, and character variables. |
-| `Mobule-1/output.c` | Reads and prints numbers with percent signs. |
-| `Mobule-1/limiations.c` | Demonstrates larger numeric values and double precision output. |
+| `Module-1/print.c` | Basic `printf()` example. |
+| `Module-1/variable.c` | Demonstrates integer, float, and character variables. |
+| `Module-1/output.c` | Reads and prints numbers with percent signs. |
+| `Module-1/limiations.c` | Demonstrates larger numeric values and double precision output. |
 | `Module-2/arithmetic.c` | Performs sum, difference, product, quotient, and remainder on two integers. |
 | `Module-2/conditional.c` | Reads an amount and prints a purchase decision using `if/else if/else`. |
 | `Module-2/conditional2.c` | Reads an amount and prints a purchase decision using nested `if/else`. |
+| `Module-3/loop_1.c` | Prints numbers from 1 to 10 using a `for` loop. |
 
 ## How to Compile and Run
 
@@ -71,7 +77,7 @@ To read input from `input.txt` and save output in `output.txt`:
 
 ## Example Output
 
-From `Mobule-1/limiations.c`:
+From `Module-1/limiations.c`:
 
 ```text
 32422.123456
@@ -98,6 +104,21 @@ From `Module-2/conditional2.c` with input `8000`:
 ```text
 I will buy a laptop
 I will buy a mobile
+```
+
+From `Module-3/loop_1.c`:
+
+```text
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 ```
 
 ## Notes
