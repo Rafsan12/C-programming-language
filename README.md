@@ -25,6 +25,7 @@ C/
 |   +-- output.txt
 +-- Module-3/
     +-- loop_1.c
+    +-- loop_2.c
     +-- input.txt
     +-- output.txt
 ```
@@ -40,6 +41,7 @@ C/
 - Conditional statements: `if`, `else if`, `else`
 - Nested conditionals
 - Looping with `for`
+- Incrementing loop counters by different values
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -55,7 +57,8 @@ C/
 | `Module-2/arithmetic.c` | Performs sum, difference, product, quotient, and remainder on two integers. |
 | `Module-2/conditional.c` | Reads an amount and prints a purchase decision using `if/else if/else`. |
 | `Module-2/conditional2.c` | Reads an amount and prints a purchase decision using nested `if/else`. |
-| `Module-3/loop_1.c` | Prints numbers from 1 to 10 using a `for` loop. |
+| `Module-3/loop_1.c` | Prints odd numbers from 1 to 9 using a `for` loop. |
+| `Module-3/loop_2.c` | Practice file for experimenting with loop counter updates. |
 
 ## How to Compile and Run
 
@@ -110,15 +113,10 @@ From `Module-3/loop_1.c`:
 
 ```text
 1
-2
 3
-4
 5
-6
 7
-8
 9
-10
 ```
 
 ## Notes
