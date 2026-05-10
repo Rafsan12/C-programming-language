@@ -26,6 +26,7 @@ C/
 +-- Module-3/
     +-- loop_1.c
     +-- loop_2.c
+    +-- loop_condition.c
     +-- loop_sum.c
     +-- input.txt
     +-- output.txt
@@ -43,6 +44,7 @@ C/
 - Nested conditionals
 - Looping with `for`
 - Incrementing loop counters by different values
+- Practicing loop conditions
 - Calculating sums with loops
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
@@ -61,6 +63,7 @@ C/
 | `Module-2/conditional2.c` | Reads an amount and prints a purchase decision using nested `if/else`. |
 | `Module-3/loop_1.c` | Prints odd numbers from 1 to 9 using a `for` loop. |
 | `Module-3/loop_2.c` | Practice file for experimenting with loop counter updates. |
+| `Module-3/loop_condition.c` | Practice file for writing and testing loop conditions. |
 | `Module-3/loop_sum.c` | Reads a number and calculates the sum from 1 to that number using a `for` loop. |
 
 ## How to Compile and Run
