@@ -24,13 +24,19 @@ C/
 |   +-- input.txt
 |   +-- output.txt
 +-- Module-3/
-    +-- loop_1.c
-    +-- loop_2.c
-    +-- loop_condition.c
-    +-- loop_sum.c
-    +-- Break.c
-    +-- continue.c
-    +-- while_loop.c
+|   +-- loop_1.c
+|   +-- loop_2.c
+|   +-- loop_condition.c
+|   +-- loop_sum.c
+|   +-- Break.c
+|   +-- continue.c
+|   +-- while_loop.c
+|   +-- input.txt
+|   +-- output.txt
++-- Practice/
+    +-- 1.c
+    +-- 2.c
+    +-- 3.c
     +-- input.txt
     +-- output.txt
 ```
@@ -52,6 +58,7 @@ C/
 - Using `break` to stop a loop early
 - Using `continue` to skip one loop iteration
 - Looping with `while`
+- Extra practice with printing, addition, and repeated output
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -74,6 +81,9 @@ C/
 | `Module-3/Break.c` | Prints numbers using a loop and stops early with `break`. |
 | `Module-3/continue.c` | Prints numbers from 1 to 10 while skipping 5 using `continue`. |
 | `Module-3/while_loop.c` | Prints numbers from 1 to 20 using a `while` loop. |
+| `Practice/1.c` | Prints `I Love Practice`. |
+| `Practice/2.c` | Reads two integers and prints their sum. |
+| `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
 
 ## How to Compile and Run
 
@@ -187,6 +197,13 @@ From `Module-3/while_loop.c`:
 18
 19
 20
+```
+
+From `Practice/3.c` with input `2`:
+
+```text
+I Love Practice
+I Love Practice
 ```
 
 ## Notes
