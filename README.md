@@ -28,6 +28,9 @@ C/
     +-- loop_2.c
     +-- loop_condition.c
     +-- loop_sum.c
+    +-- Break.c
+    +-- continue.c
+    +-- while_loop.c
     +-- input.txt
     +-- output.txt
 ```
@@ -46,6 +49,9 @@ C/
 - Incrementing loop counters by different values
 - Practicing loop conditions
 - Calculating sums with loops
+- Using `break` to stop a loop early
+- Using `continue` to skip one loop iteration
+- Looping with `while`
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -65,6 +71,9 @@ C/
 | `Module-3/loop_2.c` | Practice file for experimenting with loop counter updates. |
 | `Module-3/loop_condition.c` | Practice file for writing and testing loop conditions. |
 | `Module-3/loop_sum.c` | Reads a number and calculates the sum from 1 to that number using a `for` loop. |
+| `Module-3/Break.c` | Prints numbers using a loop and stops early with `break`. |
+| `Module-3/continue.c` | Prints numbers from 1 to 10 while skipping 5 using `continue`. |
+| `Module-3/while_loop.c` | Prints numbers from 1 to 20 using a `while` loop. |
 
 ## How to Compile and Run
 
@@ -129,6 +138,55 @@ From `Module-3/loop_sum.c` with input `10`:
 
 ```text
 The sum is 55
+```
+
+From `Module-3/Break.c`:
+
+```text
+1
+2
+3
+4
+5
+```
+
+From `Module-3/continue.c`:
+
+```text
+1
+2
+3
+4
+6
+7
+8
+9
+10
+```
+
+From `Module-3/while_loop.c`:
+
+```text
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
 ```
 
 ## Notes
