@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, and loop examples.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, practice problems, and exam exercises.
 
 ## Folder Structure
 
@@ -34,9 +34,14 @@ C/
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
-    +-- 1.c
-    +-- 2.c
-    +-- 3.c
+|   +-- 1.c
+|   +-- 2.c
+|   +-- 3.c
+|   +-- input.txt
+|   +-- output.txt
++-- exam/
+    +-- Print_It.c
+    +-- Multiply.c
     +-- input.txt
     +-- output.txt
 ```
@@ -59,6 +64,7 @@ C/
 - Using `continue` to skip one loop iteration
 - Looping with `while`
 - Extra practice with printing, addition, and repeated output
+- Exam practice with formatted printing and multiplication
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -84,6 +90,8 @@ C/
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
+| `exam/Print_It.c` | Prints a multi-line message with escape sequences and a percent sign. |
+| `exam/Multiply.c` | Reads two long long integers and prints their product. |
 
 ## How to Compile and Run
 
@@ -204,6 +212,20 @@ From `Practice/3.c` with input `2`:
 ```text
 I Love Practice
 I Love Practice
+```
+
+From `exam/Print_It.c`:
+
+```text
+Hello, world! I am learning C programming language. ^_^
+Programming is fun and challenging. /\ /\ /\
+I want to give my 100% dedication to learn!	I will succeed one day.
+```
+
+From `exam/Multiply.c` with input `10 20`:
+
+```text
+200
 ```
 
 ## Notes
