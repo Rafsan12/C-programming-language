@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, practice problems, and exam exercises.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -40,10 +40,17 @@ C/
 |   +-- input.txt
 |   +-- output.txt
 +-- exam/
-    +-- Print_It.c
-    +-- Multiply.c
-    +-- input.txt
-    +-- output.txt
+|   +-- Print_It.c
+|   +-- Multiply.c
+|   +-- Divisible.c
+|   +-- input.txt
+|   +-- output.txt
++-- codeforces/
+    +-- module-4/
+        +-- problem1.c
+        +-- problem2.c
+        +-- input.txt
+        +-- output.txt
 ```
 
 ## Topics Covered
@@ -64,7 +71,8 @@ C/
 - Using `continue` to skip one loop iteration
 - Looping with `while`
 - Extra practice with printing, addition, and repeated output
-- Exam practice with formatted printing and multiplication
+- Exam practice with formatted printing, multiplication, and divisibility
+- Codeforces practice with comparison and multiple checking
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -92,6 +100,9 @@ C/
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
 | `exam/Print_It.c` | Prints a multi-line message with escape sequences and a percent sign. |
 | `exam/Multiply.c` | Reads two long long integers and prints their product. |
+| `exam/Divisible.c` | Checks whether one number is divisible by another. |
+| `codeforces/module-4/problem1.c` | Reads two integers and prints `Yes` if the first number is greater than or equal to the second. |
+| `codeforces/module-4/problem2.c` | Reads two integers and checks whether either number is a multiple of the other. |
 
 ## How to Compile and Run
 
@@ -226,6 +237,18 @@ From `exam/Multiply.c` with input `10 20`:
 
 ```text
 200
+```
+
+From `codeforces/module-4/problem1.c` with input `5 7`:
+
+```text
+No
+```
+
+From `codeforces/module-4/problem2.c` with input `12 5`:
+
+```text
+No Multiples
 ```
 
 ## Notes
