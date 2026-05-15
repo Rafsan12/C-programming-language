@@ -49,6 +49,9 @@ C/
     +-- module-4/
         +-- problem1.c
         +-- problem2.c
+        +-- problem3.c
+        +-- problem4.c
+        +-- problem5.c
         +-- input.txt
         +-- output.txt
 ```
@@ -72,7 +75,7 @@ C/
 - Looping with `while`
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
-- Codeforces practice with comparison and multiple checking
+- Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -103,6 +106,9 @@ C/
 | `exam/Divisible.c` | Checks whether one number is divisible by another. |
 | `codeforces/module-4/problem1.c` | Reads two integers and prints `Yes` if the first number is greater than or equal to the second. |
 | `codeforces/module-4/problem2.c` | Reads two integers and checks whether either number is a multiple of the other. |
+| `codeforces/module-4/problem3.c` | Reads a letter and changes it between lowercase and uppercase. |
+| `codeforces/module-4/problem4.c` | Reads a four-digit number and prints whether the first digit is even or odd. |
+| `codeforces/module-4/problem5.c` | Reads a character and checks whether it is a digit, capital letter, or small letter. |
 
 ## How to Compile and Run
 
@@ -249,6 +255,25 @@ From `codeforces/module-4/problem2.c` with input `12 5`:
 
 ```text
 No Multiples
+```
+
+From `codeforces/module-4/problem3.c` with input `W`:
+
+```text
+w
+```
+
+From `codeforces/module-4/problem4.c` with input `4569`:
+
+```text
+EVEN
+```
+
+From `codeforces/module-4/problem5.c` with input `a`:
+
+```text
+ALPHA
+IS SMALL
 ```
 
 ## Notes
