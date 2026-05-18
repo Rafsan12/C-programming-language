@@ -56,6 +56,7 @@ C/
         +-- output.txt
     +-- module-5/
         +-- B_Even_Numbers.c
+        +-- C_Even_Odd_Positive_and_Negative.c
 ```
 
 ## Topics Covered
@@ -79,6 +80,7 @@ C/
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
 - Codeforces loop practice with printing even numbers in a range
+- Codeforces loop practice with counting even, odd, positive, and negative numbers
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -113,6 +115,7 @@ C/
 | `codeforces/module-4/problem4.c` | Reads a four-digit number and prints whether the first digit is even or odd. |
 | `codeforces/module-4/problem5.c` | Reads a character and checks whether it is a digit, capital letter, or small letter. |
 | `codeforces/module-5/B_Even_Numbers.c` | Reads `n` and prints all even numbers from `1` to `n`; prints `-1` when `n` is `1`. |
+| `codeforces/module-5/C_Even_Odd_Positive_and_Negative.c` | Reads `n` numbers and counts how many are even, odd, positive, and negative. |
 
 ## How to Compile and Run
 
@@ -288,6 +291,15 @@ From `codeforces/module-5/B_Even_Numbers.c` with input `10`:
 6
 8
 10
+```
+
+From `codeforces/module-5/C_Even_Odd_Positive_and_Negative.c` with input `5` followed by `-5 0 -3 -4 12`:
+
+```text
+Even: 3
+Odd: 2
+Positive: 1
+Negative: 3
 ```
 
 ## Notes
