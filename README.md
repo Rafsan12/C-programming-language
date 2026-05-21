@@ -31,6 +31,7 @@ C/
 |   +-- Break.c
 |   +-- continue.c
 |   +-- while_loop.c
+|   +-- Nested_For_Loop.c
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
@@ -60,6 +61,7 @@ C/
         +-- D_Fixed_Password.c
         +-- E_Max.c
         +-- F_Multiplication_table.c
+        +-- Q_Digits.c
 ```
 
 ## Topics Covered
@@ -79,6 +81,7 @@ C/
 - Using `break` to stop a loop early
 - Using `continue` to skip one loop iteration
 - Looping with `while`
+- Using nested loops to print star patterns
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -87,6 +90,7 @@ C/
 - Codeforces loop practice with checking a fixed password until it is correct
 - Codeforces loop practice with finding the maximum value
 - Codeforces loop practice with printing a multiplication table
+- Codeforces loop practice with printing digits in reverse order
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -109,6 +113,7 @@ C/
 | `Module-3/Break.c` | Prints numbers using a loop and stops early with `break`. |
 | `Module-3/continue.c` | Prints numbers from 1 to 10 while skipping 5 using `continue`. |
 | `Module-3/while_loop.c` | Prints numbers from 1 to 20 using a `while` loop. |
+| `Module-3/Nested_For_Loop.c` | Reads `n` and prints a right triangle star pattern using nested `for` loops. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -125,6 +130,7 @@ C/
 | `codeforces/module-5/D_Fixed_Password.c` | Reads password attempts, prints `Wrong` until `1999` is entered, then prints `Correct`. |
 | `codeforces/module-5/E_Max.c` | Reads `n` numbers and prints the maximum value. |
 | `codeforces/module-5/F_Multiplication_table.c` | Reads a number and prints its multiplication table from `1` to `12`. |
+| `codeforces/module-5/Q_Digits.c` | Reads test cases and prints the digits of each number in reverse order. |
 
 ## How to Compile and Run
 
@@ -240,6 +246,21 @@ From `Module-3/while_loop.c`:
 20
 ```
 
+From `Module-3/Nested_For_Loop.c` with input `10`:
+
+```text
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+```
+
 From `Practice/3.c` with input `2`:
 
 ```text
@@ -340,6 +361,14 @@ From `codeforces/module-5/F_Multiplication_table.c` with input `5`:
 5 * 10 = 50
 5 * 11 = 55
 5 * 12 = 60
+```
+
+From `codeforces/module-5/Q_Digits.c` with input `3` followed by `121`, `39`, and `123456`:
+
+```text
+1 2 1
+9 3
+6 5 4 3 2 1
 ```
 
 ## Notes
