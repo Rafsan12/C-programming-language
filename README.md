@@ -62,6 +62,11 @@ C/
         +-- E_Max.c
         +-- F_Multiplication_table.c
         +-- Q_Digits.c
+    +-- practice/
+        +-- A_Timon_and_Pumbaa.c
+        +-- C_Next_Alphabet.c
+        +-- D_Ali_Baba_and_Puzzles.c
+        +-- K_Divisors.c
 ```
 
 ## Topics Covered
@@ -91,6 +96,7 @@ C/
 - Codeforces loop practice with finding the maximum value
 - Codeforces loop practice with printing a multiplication table
 - Codeforces loop practice with printing digits in reverse order
+- Codeforces practice with simple arithmetic, next alphabet character, puzzle expressions, and divisors
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -131,6 +137,10 @@ C/
 | `codeforces/module-5/E_Max.c` | Reads `n` numbers and prints the maximum value. |
 | `codeforces/module-5/F_Multiplication_table.c` | Reads a number and prints its multiplication table from `1` to `12`. |
 | `codeforces/module-5/Q_Digits.c` | Reads test cases and prints the digits of each number in reverse order. |
+| `codeforces/practice/A_Timon_and_Pumbaa.c` | Reads two integers and prints their positive difference, or `0` if the second is greater. |
+| `codeforces/practice/C_Next_Alphabet.c` | Reads a lowercase letter and prints the next letter, wrapping `z` to `a`. |
+| `codeforces/practice/D_Ali_Baba_and_Puzzles.c` | Checks whether arithmetic expressions using three numbers can equal the target value. |
+| `codeforces/practice/K_Divisors.c` | Reads a number and prints all of its divisors. |
 
 ## How to Compile and Run
 
@@ -369,6 +379,33 @@ From `codeforces/module-5/Q_Digits.c` with input `3` followed by `121`, `39`, an
 1 2 1
 9 3
 6 5 4 3 2 1
+```
+
+From `codeforces/practice/A_Timon_and_Pumbaa.c` with input `9 1`:
+
+```text
+8
+```
+
+From `codeforces/practice/C_Next_Alphabet.c` with input `z`:
+
+```text
+a
+```
+
+From `codeforces/practice/D_Ali_Baba_and_Puzzles.c` with input `1 2 3 7`:
+
+```text
+YES
+```
+
+From `codeforces/practice/K_Divisors.c` with input `6`:
+
+```text
+1
+2
+3
+6
 ```
 
 ## Notes
