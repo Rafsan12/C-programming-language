@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, practice problems, exam exercises, and Codeforces problem solutions.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -34,6 +34,13 @@ C/
 |   +-- Nested_For_Loop.c
 |   +-- input.txt
 |   +-- output.txt
++-- module-7/
+|   +-- array.c
+|   +-- array_initialize.c
+|   +-- array_reverse.c
+|   +-- array_sum.c
+|   +-- input.txt
+|   +-- output.txt
 +-- Practice/
 |   +-- 1.c
 |   +-- 2.c
@@ -63,9 +70,13 @@ C/
         +-- F_Multiplication_table.c
         +-- Q_Digits.c
     +-- practice/
+        +-- A_Summation.c
         +-- A_Timon_and_Pumbaa.c
+        +-- B_Searching.c
         +-- C_Next_Alphabet.c
+        +-- C_Replacement.c
         +-- D_Ali_Baba_and_Puzzles.c
+        +-- F_Reversing.c
         +-- K_Divisors.c
 ```
 
@@ -87,6 +98,7 @@ C/
 - Using `continue` to skip one loop iteration
 - Looping with `while`
 - Using nested loops to print star patterns
+- Reading, initializing, summing, and reversing arrays
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -96,7 +108,7 @@ C/
 - Codeforces loop practice with finding the maximum value
 - Codeforces loop practice with printing a multiplication table
 - Codeforces loop practice with printing digits in reverse order
-- Codeforces practice with simple arithmetic, next alphabet character, puzzle expressions, and divisors
+- Codeforces practice with summation, searching, replacement, reversing, simple arithmetic, next alphabet character, puzzle expressions, and divisors
 - Compiling and running C programs with GCC
 - Using `input.txt` and `output.txt` for program input/output
 
@@ -120,6 +132,10 @@ C/
 | `Module-3/continue.c` | Prints numbers from 1 to 10 while skipping 5 using `continue`. |
 | `Module-3/while_loop.c` | Prints numbers from 1 to 20 using a `while` loop. |
 | `Module-3/Nested_For_Loop.c` | Reads `n` and prints a right triangle star pattern using nested `for` loops. |
+| `module-7/array.c` | Reads 5 integers into an array and prints them. |
+| `module-7/array_initialize.c` | Demonstrates array initialization with values and zeros. |
+| `module-7/array_reverse.c` | Reads an array and prints its elements in reverse order. |
+| `module-7/array_sum.c` | Reads an array and prints the sum of its elements. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -137,9 +153,13 @@ C/
 | `codeforces/module-5/E_Max.c` | Reads `n` numbers and prints the maximum value. |
 | `codeforces/module-5/F_Multiplication_table.c` | Reads a number and prints its multiplication table from `1` to `12`. |
 | `codeforces/module-5/Q_Digits.c` | Reads test cases and prints the digits of each number in reverse order. |
+| `codeforces/practice/A_Summation.c` | Reads numbers, sums them, and prints the absolute value of the sum. |
 | `codeforces/practice/A_Timon_and_Pumbaa.c` | Reads two integers and prints their positive difference, or `0` if the second is greater. |
+| `codeforces/practice/B_Searching.c` | Searches for a value in an array and prints its index, or `-1` if it is not found. |
 | `codeforces/practice/C_Next_Alphabet.c` | Reads a lowercase letter and prints the next letter, wrapping `z` to `a`. |
+| `codeforces/practice/C_Replacement.c` | Replaces positive numbers with `1`, negative numbers with `2`, and zeros with `0`. |
 | `codeforces/practice/D_Ali_Baba_and_Puzzles.c` | Checks whether arithmetic expressions using three numbers can equal the target value. |
+| `codeforces/practice/F_Reversing.c` | Reads an array and prints it in reverse order. |
 | `codeforces/practice/K_Divisors.c` | Reads a number and prints all of its divisors. |
 
 ## How to Compile and Run
@@ -271,6 +291,18 @@ From `Module-3/Nested_For_Loop.c` with input `10`:
 **********
 ```
 
+From `module-7/array_sum.c` with input `5` followed by `1 2 3 4 5`:
+
+```text
+15
+```
+
+From `module-7/array_reverse.c` with input `5` followed by `1 2 3 4 5`:
+
+```text
+5 4 3 2 1
+```
+
 From `Practice/3.c` with input `2`:
 
 ```text
@@ -381,10 +413,22 @@ From `codeforces/module-5/Q_Digits.c` with input `3` followed by `121`, `39`, an
 6 5 4 3 2 1
 ```
 
+From `codeforces/practice/A_Summation.c` with input `5` followed by `1 -2 3 -4 5`:
+
+```text
+3
+```
+
 From `codeforces/practice/A_Timon_and_Pumbaa.c` with input `9 1`:
 
 ```text
 8
+```
+
+From `codeforces/practice/B_Searching.c` with input `5`, then `10 20 30 40 50`, then `30`:
+
+```text
+2
 ```
 
 From `codeforces/practice/C_Next_Alphabet.c` with input `z`:
@@ -393,10 +437,22 @@ From `codeforces/practice/C_Next_Alphabet.c` with input `z`:
 a
 ```
 
+From `codeforces/practice/C_Replacement.c` with input `5` followed by `1 -2 0 3 4`:
+
+```text
+1 2 0 1 1
+```
+
 From `codeforces/practice/D_Ali_Baba_and_Puzzles.c` with input `1 2 3 7`:
 
 ```text
 YES
+```
+
+From `codeforces/practice/F_Reversing.c` with input `5` followed by `1 2 3 4 5`:
+
+```text
+5 4 3 2 1
 ```
 
 From `codeforces/practice/K_Divisors.c` with input `6`:
