@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, practice problems, exam exercises, and Codeforces problem solutions.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -39,6 +39,13 @@ C/
 |   +-- array_initialize.c
 |   +-- array_reverse.c
 |   +-- array_sum.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-8/
+|   +-- copy_arrar.c
+|   +-- delete.c
+|   +-- insert.c
+|   +-- reverse.c
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
@@ -99,6 +106,7 @@ C/
 - Looping with `while`
 - Using nested loops to print star patterns
 - Reading, initializing, summing, and reversing arrays
+- Copying, merging, inserting, deleting, and reversing array elements
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -136,6 +144,10 @@ C/
 | `module-7/array_initialize.c` | Demonstrates array initialization with values and zeros. |
 | `module-7/array_reverse.c` | Reads an array and prints its elements in reverse order. |
 | `module-7/array_sum.c` | Reads an array and prints the sum of its elements. |
+| `Module-8/copy_arrar.c` | Reads two arrays, copies their values into a third array, and prints the merged result. |
+| `Module-8/delete.c` | Deletes an element from an array by position and shifts the remaining elements left. |
+| `Module-8/insert.c` | Inserts a value into an array at a selected position and shifts elements right. |
+| `Module-8/reverse.c` | Reverses an array in place using two pointers. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -301,6 +313,30 @@ From `module-7/array_reverse.c` with input `5` followed by `1 2 3 4 5`:
 
 ```text
 5 4 3 2 1
+```
+
+From `Module-8/copy_arrar.c` with input `5`, `10 20 90 40 50`, `3`, and `66 77 88`:
+
+```text
+10 20 90 40 50 66 77 88
+```
+
+From `Module-8/insert.c` with input `5`, `10 20 30 40 50`, then position `2` and value `99`:
+
+```text
+10 20 99 30 40 50
+```
+
+From `Module-8/delete.c` with input `5`, `10 20 30 40 50`, then position `2`:
+
+```text
+10 20 40 50
+```
+
+From `Module-8/reverse.c` with input `5` followed by `10 20 30 40 50`:
+
+```text
+50 40 30 20 10
 ```
 
 From `Practice/3.c` with input `2`:
