@@ -1,5 +1,1 @@
-r
-a
-f
-s
-a
+Size of array is 20
