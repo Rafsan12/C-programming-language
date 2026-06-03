@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, practice problems, exam exercises, and Codeforces problem solutions.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, character arrays, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -46,6 +46,11 @@ C/
 |   +-- delete.c
 |   +-- insert.c
 |   +-- reverse.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-10/
+|   +-- array_of_char.c
+|   +-- array_size.c
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
@@ -107,6 +112,8 @@ C/
 - Using nested loops to print star patterns
 - Reading, initializing, summing, and reversing arrays
 - Copying, merging, inserting, deleting, and reversing array elements
+- Measuring array memory size with `sizeof`
+- Reading and printing character arrays
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -148,6 +155,8 @@ C/
 | `Module-8/delete.c` | Deletes an element from an array by position and shifts the remaining elements left. |
 | `Module-8/insert.c` | Inserts a value into an array at a selected position and shifts elements right. |
 | `Module-8/reverse.c` | Reverses an array in place using two pointers. |
+| `Module-10/array_of_char.c` | Reads five characters into a character array and prints each character on a new line. |
+| `Module-10/array_size.c` | Prints the memory size of an integer array using `sizeof`. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -337,6 +346,22 @@ From `Module-8/reverse.c` with input `5` followed by `10 20 30 40 50`:
 
 ```text
 50 40 30 20 10
+```
+
+From `Module-10/array_size.c`:
+
+```text
+Size of array is 20
+```
+
+From `Module-10/array_of_char.c` with input `abcde`:
+
+```text
+a
+b
+c
+d
+e
 ```
 
 From `Practice/3.c` with input `2`:
