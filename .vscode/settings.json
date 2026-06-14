@@ -1,3 +1,4 @@
 {
-  "C_Cpp.default.compilerPath": "c:\\MinGW\\MinGW\\bin\\gcc.exe"
+  "C_Cpp.default.compilerPath": "c:\\MinGW\\MinGW\\bin\\gcc.exe",
+  "editor.inlineSuggest.enabled": true
 }
