@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+// Pattern 2 to print the following pattern
 int main()
 {
     int n,s,k;
@@ -25,3 +27,4 @@ int main()
     }
     return 0;
 }
+
