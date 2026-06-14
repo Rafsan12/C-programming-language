@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, character arrays, practice problems, exam exercises, and Codeforces problem solutions.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, character arrays, nested-loop pattern exercises, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -51,6 +51,12 @@ C/
 +-- Module-10/
 |   +-- array_of_char.c
 |   +-- array_size.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-13/
+|   +-- pattern1.c
+|   +-- pattern2.c
+|   +-- pattern3.c
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
@@ -114,6 +120,7 @@ C/
 - Copying, merging, inserting, deleting, and reversing array elements
 - Measuring array memory size with `sizeof`
 - Reading and printing character arrays
+- Printing triangle, pyramid, and inverted pyramid star patterns with nested loops
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -157,6 +164,9 @@ C/
 | `Module-8/reverse.c` | Reverses an array in place using two pointers. |
 | `Module-10/array_of_char.c` | Reads five characters into a character array and prints each character on a new line. |
 | `Module-10/array_size.c` | Prints the memory size of an integer array using `sizeof`. |
+| `Module-13/pattern1.c` | Reads `n` and prints a left-aligned triangle of stars using nested loops. |
+| `Module-13/pattern2.c` | Reads `n` and prints a centered pyramid of stars using spaces and nested loops. |
+| `Module-13/pattern3.c` | Reads `n` and prints an inverted centered pyramid of stars using spaces and nested loops. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -362,6 +372,36 @@ b
 c
 d
 e
+```
+
+From `Module-13/pattern1.c` with input `5`:
+
+```text
+*
+**
+***
+****
+*****
+```
+
+From `Module-13/pattern2.c` with input `5`:
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+From `Module-13/pattern3.c` with input `5`:
+
+```text
+*********
+ *******
+  *****
+   ***
+    *
 ```
 
 From `Practice/3.c` with input `2`:
