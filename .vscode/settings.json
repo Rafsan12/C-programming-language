@@ -1,4 +1,6 @@
 {
   "C_Cpp.default.compilerPath": "c:\\MinGW\\MinGW\\bin\\gcc.exe",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "Codegeex.Chat.LanguagePreference": "中文",
+  "Codegeex.GenerationPreference": "automatic"
 }
