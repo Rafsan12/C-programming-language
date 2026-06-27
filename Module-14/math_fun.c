@@ -9,7 +9,7 @@ int main()
     // int ans = floor(x);
     // int ans = round(x);
     // double ans = sqrt(x);
-int ans = pow(x,y);
+       int ans = pow(x,y);
     printf("%d",ans);
 
     return 0;

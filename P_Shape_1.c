@@ -4,23 +4,19 @@
 
     int main()
 {
-    int n,s,k;
+    int n,k;
     scanf("%d", &n);
-    s=0;
-    k=2*n-1;
+  
+  k=n;
     for(int i=1;i<=n;i++)
     {
-        for(int j=1;j<=s;j++)
-        {
-            printf(" ",j);
-
-        }
+     
         for(int j=1;j<=k;j++)
         {
             printf("*",j);
         }
-        s=s+1;
-        k=k-2;
+        
+        k--;
     
         printf("\n");
         
