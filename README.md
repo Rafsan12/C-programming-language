@@ -1,6 +1,6 @@
 # C Programming Language
 
-This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, character arrays, nested-loop pattern exercises, practice problems, exam exercises, and Codeforces problem solutions.
+This repository contains my C programming practice files from Phitron. It includes setup programs, basic print statements, variables, formatted input/output, arithmetic operations, conditional statements, loop examples, arrays, array operations, character arrays, nested-loop pattern exercises, function examples, math library practice, practice problems, exam exercises, and Codeforces problem solutions.
 
 ## Folder Structure
 
@@ -57,6 +57,14 @@ C/
 |   +-- pattern1.c
 |   +-- pattern2.c
 |   +-- pattern3.c
+|   +-- input.txt
+|   +-- output.txt
++-- Module-14/
+|   +-- function_1.c
+|   +-- function_2.c
+|   +-- funtion_3.c
+|   +-- function_4.c
+|   +-- math_fun.c
 |   +-- input.txt
 |   +-- output.txt
 +-- Practice/
@@ -121,6 +129,11 @@ C/
 - Measuring array memory size with `sizeof`
 - Reading and printing character arrays
 - Printing triangle, pyramid, and inverted pyramid star patterns with nested loops
+- Creating and calling user-defined functions
+- Returning values from functions
+- Passing arguments to functions
+- Using `void` functions
+- Using math library functions such as `ceil()`, `floor()`, `round()`, `sqrt()`, and `pow()`
 - Extra practice with printing, addition, and repeated output
 - Exam practice with formatted printing, multiplication, and divisibility
 - Codeforces practice with comparison, multiple checking, character conversion, digit checking, and alphabet classification
@@ -167,6 +180,11 @@ C/
 | `Module-13/pattern1.c` | Reads `n` and prints a left-aligned triangle of stars using nested loops. |
 | `Module-13/pattern2.c` | Reads `n` and prints a centered pyramid of stars using spaces and nested loops. |
 | `Module-13/pattern3.c` | Reads `n` and prints an inverted centered pyramid of stars using spaces and nested loops. |
+| `Module-14/function_1.c` | Demonstrates a function that receives two integers, returns their sum, and prints the result. |
+| `Module-14/function_2.c` | Demonstrates a function with no parameters that reads two integers and returns their sum. |
+| `Module-14/funtion_3.c` | Demonstrates a `void` function that receives two integers and prints their sum. |
+| `Module-14/function_4.c` | Demonstrates a `void` function that reads two integers and prints their sum. |
+| `Module-14/math_fun.c` | Practices math library functions such as `ceil()`, `floor()`, `round()`, `sqrt()`, and `pow()`. |
 | `Practice/1.c` | Prints `I Love Practice`. |
 | `Practice/2.c` | Reads two integers and prints their sum. |
 | `Practice/3.c` | Reads a number and prints `I Love Practice` that many times using a `for` loop. |
@@ -402,6 +420,19 @@ From `Module-13/pattern3.c` with input `5`:
   *****
    ***
     *
+```
+
+From `Module-14/function_1.c`:
+
+```text
+40
+100
+```
+
+From `Module-14/math_fun.c` with input `2 4`:
+
+```text
+16
 ```
 
 From `Practice/3.c` with input `2`:
