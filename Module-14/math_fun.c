@@ -5,7 +5,8 @@ int main()
 {
     double x;
     scanf("%lf",&x);
-    int ans = ceil(x);
+    // int ans = ceil(x);
+    int ans = floor(x);
     printf("%d",ans);
 
     return 0;
