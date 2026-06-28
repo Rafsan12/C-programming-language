@@ -5,7 +5,7 @@ int main()
     int n;
     scanf("%d", &n);
 
-    // Top half: rows 1..N
+   
     for (int i = 1; i <= n; i++)
     {
         for (int j = 0; j < n - i; j++) printf(" ");
@@ -13,7 +13,7 @@ int main()
         printf("\n");
     }
 
-    // Bottom half: rows N..1 (mirror)
+   
     for (int i = n; i >= 1; i--)
     {
         for (int j = 0; j < n - i; j++) printf(" ");
